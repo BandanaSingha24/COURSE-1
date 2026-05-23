@@ -12,4 +12,4 @@ This repository is a curated collection of my practical work and professional de
 To showcase a methodical approach to problem-solving in cancer genomics and to maintain a repository of reusable code, analytical workflows, and industry-standard practices.
 
 ---
-*Current Status: Actively populating the repository with 30 modules of hands-on practice.*
+*Current Status: Actively populating the repository with 26 modules of hands-on practice.*
