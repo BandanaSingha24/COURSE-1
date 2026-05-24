@@ -1,7 +1,7 @@
-# Breast Cancer Prediction Project: Supervised Learning Analysis
+# TCGA Breast Cancer Prediction : Supervised & Unsupervised Learning Analysis
 
-## 🚀 Project Steps Overview
-This project follows a systematic machine learning pipeline to analyze breast cancer gene expression data.
+## 🚀 Supervised ML Steps Overview
+It follows a systematic machine learning pipeline to analyze breast cancer gene expression data.
 
 ### Step 1: Data Preprocessing
 * Cleaned and organized the raw TCGA genomic dataset.
@@ -22,7 +22,7 @@ This project follows a systematic machine learning pipeline to analyze breast ca
 * Implemented **K-Fold Cross-Validation (cv=5)**.
 * Applied `random_state=42` to ensure consistent and reproducible results.
 
-### Step 6: Final Results
+### Final Results
 * **Average Accuracy Achieved:** **88.37%**
 * The model proved to be stable and reliable for clinical gene expression classification.
 
