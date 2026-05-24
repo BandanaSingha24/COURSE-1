@@ -4,9 +4,9 @@ A streamlined bioinformatics pipeline for **Somatic Variant Analysis** in cancer
 
 ## 🚀 Workflow Steps
 1. **Setup:** Environment & Tool configuration (GATK, BWA, Samtools).
-2. **Data:** Automated download of tumor-normal FASTQ files.
-3. **QC:** Quality assessment using FastQC.
-4. **Alignment:** Mapping reads to reference genome (hg19) via BWA-MEM.
+2. **FASTQ Data:** Automated download of tumor-normal FASTQ files.
+3. **FASTQ QC:** Quality assessment using FastQC.
+4. **Alignment:** Mapping reads to reference genome (hg19) via BWA-MM.
 5. **Variant Calling:** Somatic mutation detection using **Mutect2**.
 6. **Filtering:** Precision filtering with **FilterMutectCalls**.
 7. **Annotation:** Biological impact assessment.
