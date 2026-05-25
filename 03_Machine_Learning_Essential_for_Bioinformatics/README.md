@@ -28,3 +28,27 @@ It follows a systematic machine learning pipeline to analyze breast cancer gene 
 
 ## 🛠️ Tools Used
 * **Python**, **Scikit-Learn**, **Seaborn**, **Matplotlib**, **Google Colab**.
+
+## 🚀 Unsupervised ML Steps Overview
+*Exploratory analysis of cancer genomic data using clustering techniques to identify patient subgroups.*
+
+### **Step 1: Dimensionality Reduction (PCA)**
+* **Applied Principal Component Analysis (PCA)** to reduce 1937 high-dimensional gene features into 2 primary components (PC1, PC2).
+* This step successfully visualized complex genomic variations in a 2D space.
+
+### **Step 2: Optimal Cluster Selection**
+* Implemented the **Elbow Method** to calculate the Within-Cluster Sum of Squares (WCSS).
+* Identified **3 optimal clusters** as the most significant grouping for the patient gene expression profiles.
+
+### **Step 3: Clustering & Pattern Recognition**
+* Executed **K-Means Clustering** to segment 705 patient samples into 3 distinct biological subgroups.
+* Computed cluster **Centroids** to identify the central gene expression profile of each subgroup.
+
+### **Step 4: Feature Importance (Biological Insights)**
+* Extracted top influential genes contributing to cluster separation using PCA loadings.
+* Identified key markers including **ESR1, FOXA1, AGR3, VGLL1, and ROPN1** that drive these phenotypic variations.
+
+## 🛠 **Tools Used**
+* **Languages:** Python
+* **Libraries:** Scikit-Learn, Pandas, NumPy, Matplotlib, Seaborn
+* **Platform:** Google Colab, GitHub
