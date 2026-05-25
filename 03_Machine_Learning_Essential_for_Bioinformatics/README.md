@@ -52,3 +52,20 @@ It follows a systematic machine learning pipeline to analyze breast cancer gene 
 * **Languages:** Python
 * **Libraries:** Scikit-Learn, Pandas, NumPy, Matplotlib, Seaborn
 * **Platform:** Google Colab, GitHub
+
+### Hypothesis Learning Analysis
+
+In this analysis, we have moved beyond standard machine learning models by incorporating statistical hypothesis testing to validate our unsupervised clustering results.
+
+**Our Hypothesis:**
+* **Null Hypothesis ($H_0$):** There is no significant biological difference between the identified gene expression clusters; the gene distribution across clusters is uniform.
+* **Alternative Hypothesis ($H_a$):** There is a statistically significant difference in gene expression between the clusters, indicating distinct biological states or cancer subtypes.
+
+**Analysis Steps:**
+1. **Statistical Validation:** We performed an ANOVA test to identify genes that are statistically significant ($p < 0.05$) across the clusters.
+2. **Biological Interpretation:** After identifying over 590 significant genes, we conducted **Biological Pathway Enrichment Analysis** using the `gseapy` library (Enrichr).
+3. **Key Findings:** Our results demonstrate that these clusters are primarily associated with biological processes such as *Epithelial Cell Differentiation* and *Extracellular Matrix Organization*.
+
+**Conclusion:**
+Our statistical tests and pathway enrichment analysis confirm that the unsupervised clusters are backed by clear biological evidence, thereby validating our Alternative Hypothesis ($H_a$).
+
