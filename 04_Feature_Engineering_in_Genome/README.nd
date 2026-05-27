@@ -1,1 +1,34 @@
+# BRCA1 Gene Mutation Analysis and AI Classification
+
+This repository contains my practice work in bioinformatics, focusing on analyzing the BRCA1 gene to identify mutations and using machine learning for genomic sequence classification.
+
+## Bioinformatics Methodology
+
+The analysis follows this step-by-step pipeline:
+
+### 1. Data Acquisition & Pre-processing
+* **Action:** Loaded the reference (normal) and mutated DNA sequences.
+* **Result:** Data cleaned and formatted for comparative analysis.
+
+### 2. Mutation Identification
+* **Action:** Performed sequence alignment to identify variations between reference and mutated DNA.
+* **Result:** Detected a significant **Deletion** mutation in the BRCA1 gene.
+
+### 3. Protein Translation
+* **Action:** Converted DNA sequences into protein (amino acid) sequences to assess biological function.
+* **Result:** Normal protein length (2362 amino acids) vs. Mutated protein length (116 amino acids), confirming severe truncation.
+
+### 4. One-Hot Encoding (Mutation Matrix)
+* **Action:** Transformed DNA sequence data (A, T, C, G) into a numerical format.
+* **Result:** Generated a binary **Mutation Matrix** of shape (7088, 2) to enable AI processing.
+
+### 5. Machine Learning Classification
+* **Action:** Utilized a `RandomForestClassifier` to build an AI model.
+* **Result:** The model learned to distinguish between normal and mutated DNA with an accuracy of ~56%, showcasing the structural impact of the mutation.
+
+## Learning Outcomes
+Through this practice, I have gained hands-on experience in:
+* **Handling** genomic datasets.
+* **Implementing** bioinformatics algorithms for mutation detection.
+* **Integrating** machine learning workflows with biological data.
 
