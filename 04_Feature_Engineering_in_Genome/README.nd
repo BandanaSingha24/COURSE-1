@@ -2,6 +2,7 @@
 
 This repository contains my practice work in bioinformatics, focusing on analyzing the BRCA1 gene to identify mutations and using machine learning for genomic sequence classification.
 
+
 ## Bioinformatics Methodology
 
 The analysis follows this step-by-step pipeline:
@@ -14,6 +15,7 @@ The analysis follows this step-by-step pipeline:
 * **Action:** Performed sequence alignment to identify variations between reference and mutated DNA.
 * **Result:** Detected a significant **Deletion** mutation in the BRCA1 gene.
 
+
 ### 3. Protein Translation
 * **Action:** Converted DNA sequences into protein (amino acid) sequences to assess biological function.
 * **Result:** Normal protein length (2362 amino acids) vs. Mutated protein length (116 amino acids), confirming severe truncation.
@@ -21,6 +23,7 @@ The analysis follows this step-by-step pipeline:
 ### 4. One-Hot Encoding (Mutation Matrix)
 * **Action:** Transformed DNA sequence data (A, T, C, G) into a numerical format.
 * **Result:** Generated a binary **Mutation Matrix** of shape (7088, 2) to enable AI processing.
+
 
 ### 5. Machine Learning Classification
 * **Action:** Utilized a `RandomForestClassifier` to build an AI model.
@@ -31,5 +34,3 @@ Through this practice, I have gained hands-on experience in:
 * **Handling** genomic datasets.
 * **Implementing** bioinformatics algorithms for mutation detection.
 * **Integrating** machine learning workflows with biological data.
-
-
